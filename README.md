@@ -12,34 +12,9 @@ A robust, flexible, and global modal manager for Vue 3 (Composition API, TypeScr
 - **Global State Management:** Singleton composable for consistent modal state across your app.
 - **TypeScript-first:** Full type safety for props and modal results.
 
----
-
-## Installation
-
-```bash
-npm install <your-modal-manager-package>
-# or
-yarn add <your-modal-manager-package>
-```
-
-Copy the `components/` and `composables/` folders into your project if not using a package manager.
-
----
-
 ## Basic Usage
 
 Register the `ModalManager` component at your app root (e.g., `App.vue`):
-
-```vue
-<template>
-  <ModalManager />
-  <router-view />
-</template>
-
-<script setup>
-import ModalManager from './components/ModalManager.vue';
-</script>
-```
 
 Open a modal from anywhere in your app:
 
